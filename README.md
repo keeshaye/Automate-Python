@@ -4,7 +4,7 @@ Il a été réalisé dans le cadre du module LU2IN005 – Mathématique discrèt
 
 Le projet comprend plusieurs fonctionnalités essentielles :
 
-🔹 Manipulation d’automates\n
+🔹 Manipulation d’automates
 -Création d’états et de transitions
 -Construction d’automates à partir de fichiers
 -Visualisation graphique des automates
