@@ -1,16 +1,19 @@
 # Automate-Python
+
 Ce projet a pour objectif d’implémenter en Python une structure complète permettant de manipuler des automates finis et d’appliquer les principales opérations classiques de la théorie des langages formels.
 Il a été réalisé dans le cadre du module LU2IN005 – Mathématique discrètes.
 
 Le projet comprend plusieurs fonctionnalités essentielles :
 
 🔹 Manipulation d’automates
+
 -Création d’états et de transitions
 -Construction d’automates à partir de fichiers
 -Visualisation graphique des automates
 -Tests de transitions et manipulation de l’ensemble des états
 
 🔹 Opérations fondamentales
+
 -Successeur et acceptation de mots
 -Test de déterminisme
 -Test de complétude
@@ -18,6 +21,7 @@ Le projet comprend plusieurs fonctionnalités essentielles :
 -Déterminisation
 
 🔹 Opérations sur les langages
+
 -Complémentaire
 -Intersection
 -Union
@@ -25,11 +29,13 @@ Le projet comprend plusieurs fonctionnalités essentielles :
 -Étoile de Kleene
 
 🔹 Application : extraction de nombres décimaux
+
 Le projet se conclut par une application pratique :
 extraction dans un fichier texte de nombres décimaux complets (comme 123,456) grâce à un automate spécifiquement construit.
 Cette partie remplace l’utilisation de regex par un analyseur purement automatisé.
 
 🔹 Contenu du dépôt
+
 projet_etudiant.ipynb – notebook Python permettant de tester et manipuler les automates, avec création d’automates à partir de fichiers, affichage, et vérification d’égalité d’états.
 
 automateBase.py – classes et outils de base pour la construction et la manipulation d’automates.
@@ -49,6 +55,7 @@ transition.py – définit la classe Transition représentant une transition d'a
 fichiers .txt utilisés pour créer des automates de test
 
 🔹 Objectifs pédagogiques
+
 -Comprendre en profondeur la logique des automates finis
 -Implémenter proprement des algorithmes théoriques
 -Apprendre à concevoir une application simple basée sur les automates
